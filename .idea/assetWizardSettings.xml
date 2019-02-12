@@ -35,9 +35,9 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="fdffff" />
-                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
+                                      <entry key="backgroundLayerName" value="churras_icon_background" />
                                       <entry key="foregroundImage" value="C:\Users\muri_\Desktop\297094.png" />
-                                      <entry key="foregroundLayerName" value="ic_launcher_foreground" />
+                                      <entry key="foregroundLayerName" value="churras_icon" />
                                       <entry key="legacyIconShape" value="CIRCLE" />
                                       <entry key="outputName" value="churrasqueira" />
                                       <entry key="webIconShape" value="CIRCLE" />

@@ -3,4 +3,7 @@
     <string name="CalculoChurras">Calculo para churrasco</string>
     <string name="Pessoas">Quantas pessoas irão?</string>
     <string name="Calcular">Calcular</string>
+    <string name="Homens">Quantos homens irão?</string>
+    <string name="Mulheres">Quantas mulheres irão?</string>
+    <string name="Criancas">Quantas crianças irão?</string>
 </resources>
