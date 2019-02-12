@@ -6,4 +6,10 @@
     <string name="Homens">Quantos homens irão?</string>
     <string name="Mulheres">Quantas mulheres irão?</string>
     <string name="Criancas">Quantas crianças irão?</string>
+    <string name="Titulo_Pessoas">Pessoas</string>
+    <string name="Titulo_Carnes">Carnes</string>
+    <string name="CarneOsso">Carnes com osso</string>
+    <string name="CarneSOsso">Carnes sem osso</string>
+    <string name="Frango">Frango (coxa, asinha, ...)</string>
+    <string name="Linguica">Linguiça ou Salsicha</string>
 </resources>

@@ -14,16 +14,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="16px"
+            android:layout_marginRight="16px"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtInicio"
+                android:id="@+id/txtTituloPessoas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/CalculoChurras"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:text="@string/Titulo_Pessoas"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -34,6 +35,7 @@
                     android:id="@+id/txtHomens"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16px"
                     android:text="@string/Homens" />
 
                 <EditText
@@ -88,6 +90,39 @@
                     android:inputType="number" />
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/txtTituloCarnes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32px"
+                android:text="@string/Titulo_Carnes"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cbCarneCOsso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CarneOsso" />
+
+            <CheckBox
+                android:id="@+id/cbCarneSOsso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CarneSOsso" />
+
+            <CheckBox
+                android:id="@+id/cbFrango"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Frango" />
+
+            <CheckBox
+                android:id="@+id/cbLinguica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Linguica" />
+
             <Button
                 android:id="@+id/btnCalcular"
                 android:layout_width="match_parent"
@@ -99,9 +134,9 @@
             <TextView
                 android:id="@+id/txtResultado"
                 android:layout_width="match_parent"
-                android:layout_height="212dp"
+                android:layout_height="306dp"
                 android:layout_marginTop="10px"
-                android:textSize="36sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
                 tools:layout_editor_absoluteX="39dp" />
