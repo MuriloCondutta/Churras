@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">+ Churras</string>
+    <string name="CalculoChurras">Calculo para churrasco</string>
+    <string name="Pessoas">Quantas pessoas irão?</string>
+    <string name="Calcular">Calcular</string>
+</resources>
